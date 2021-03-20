@@ -208,14 +208,14 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(isearch-fail                                     ((t (:foreground ,color-13 :background ,color-7))))
    `(lazy-highlight                                   ((t (:foreground ,color-11 :weight bold :background ,color-5))))
    `(menu                                             ((t (:foreground ,color-13 :background ,color-4))))
-   `(minibuffer-prompt                                ((t (:foreground ,color-14 :background ,color-4 :inherit fixed-pitch))))  ; modified
-   `(mode-line                                        ((,class (:foreground ,color-6 :background ,color-9 :box nil :height ,(tao-theme-height 1.0)))))  ; modified
-   `(mode-line-inactive                               ((t (:foreground ,color-9 :background ,color-6 :box nil :height ,(tao-theme-height 1.0)))))  ; modified
+   `(minibuffer-prompt                                ((t (:foreground ,color-14 :background ,color-4 :inherit fixed-pitch))))
+   `(mode-line                                        ((,class (:foreground ,color-6 :background ,color-9 :box nil :height ,(tao-theme-height 1.0)))))
+   `(mode-line-inactive                               ((t (:foreground ,color-9 :background ,color-6 :box nil :height ,(tao-theme-height 1.0)))))
    `(mode-line-buffer-id                              ((t (:weight bold))))
    `(region                                           ((,class (:background ,color-9 :foreground ,color-3)) (t :inverse-video t)))
    `(secondary-selection                              ((t (:background ,color-5))))
    `(cua-rectangle                                    ((t (:background ,color-4))))
-   `(trailing-whitespace                              ((t (:background ,color-10))))
+   `(trailing-whitespace                              ((t (:background ,color-7))))
    `(vertical-border                                  ((t (:foreground ,color-7 :background ,color-4))))
    ;; font lock
    `(font-lock-builtin-face                           ((t (:foreground ,color-13 :italic t))))
