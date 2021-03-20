@@ -221,7 +221,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(font-lock-builtin-face                           ((t (:foreground ,color-13 :italic t))))
    `(font-lock-keyword-face                           ((t (:foreground ,color-14))))
    `(font-lock-comment-face                           ((t (:foreground ,color-8 :italic t :variable-pitch t))))
-   `(font-lock-comment-delimiter-face                 ((t (:foreground ,color-9))))
+   `(font-lock-comment-delimiter-face                 ((t (:foreground ,color-8))))
    `(font-lock-constant-face                          ((t (:foreground ,color-9 :weight bold))))
    `(font-lock-doc-face                               ((t (:foreground ,color-8 :weight normal :italic t))))
    `(font-lock-function-name-face                     ((t (:foreground ,color-10 :box ,(tao-boxed color-8)))))
