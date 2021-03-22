@@ -858,7 +858,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(sh-quoted-exec                                   ((t (:foreground ,color-10))))
    ;; show-paren
    `(show-paren-mismatch                              ((t (:foreground ,color-1 :background ,color-14 :weight bold))))
-   `(show-paren-match                                 ((t (:foreground ,color-11 :background, color-4 :weight bold)))) ; default :underline t
+   `(show-paren-match                                 ((t (:foreground ,color-11 :underline t))))
    ;; smartparens
    `(sp-show-pair-mismatch-face                       ((t (:background ,color-6 :foreground ,color-14 :bold t :underline t))))
    `(sp-show-pair-match-face                          ((t (:background ,color-3 :foreground ,color-14 :box ,(tao-boxed color-8)))))
